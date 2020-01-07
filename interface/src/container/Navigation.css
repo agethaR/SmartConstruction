@@ -4,5 +4,15 @@
 }
 
 .home{
-  margin-right: 40px;
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+.Titre{
+	font-size: 25px;
+	border-right: 1px solid;
+	padding-right : 60px;
+	margin-left: 60px;
+
+
 }

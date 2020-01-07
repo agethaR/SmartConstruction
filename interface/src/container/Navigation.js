@@ -31,15 +31,15 @@ class Navigation extends Component {
       <header className="barre">
       <div>
        <Navbar dark expand="md">
-          <NavbarBrand style={{color: '#919DC4'}} href="/">Smart Construction</NavbarBrand>
+          <NavbarBrand className="Titre" style={{color: 'white'}} href="/">Smart Construction</NavbarBrand>
           <NavbarToggler  onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink className="home" style={{color: '#919DC4'}} to="/">Le Projet</NavLink>
+                <NavLink className="home" style={{color: 'white'}} to="/">Le Projet</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink style={{color: '#919DC4'}} to="/analyses">Analyses</NavLink>
+                <NavLink className="home" style={{color: 'white'}} to="/analyses">Analyses</NavLink>
               </NavItem>
               </Nav>
           </Collapse>
