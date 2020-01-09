@@ -3,3 +3,35 @@
     margin-left: 80px;
     margin-bottom: 35px;
 }
+
+.polluant{
+	margin:30px;
+	background-color: white !important;
+	color:black !important;
+	border:none !important;
+	font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+
+.polluant:active{
+	margin:30px;
+	background-color: white !important;
+	color:grey !important;
+	border:none !important;
+	font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.polluant:hover{
+	margin:30px;
+	background-color: white !important;
+	color:grey !important;
+	border:none !important;
+	font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+#demo{
+	margin-left: 50px;
+}

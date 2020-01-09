@@ -9,6 +9,7 @@ import Martin from '../component/martin.jpg';
 import Marie from '../component/marie.jpg';
 import Manar from '../component/manar.jpg';
 import Agetha from '../component/agetha.jpg';
+import Aurelio from '../component/aurelio.jpg';
 
 
 export default class Accueil extends Component {
@@ -88,7 +89,7 @@ export default class Accueil extends Component {
 
         <Col xs="12" sm="2"> 
           <div className="nom">
-            <img className="member7" src={Agetha}/> 
+            <img className="member7" src={Aurelio}/> 
             <div className="legende">Aurelio <br/> Rognetta</div> 
           </div>
         </Col>
