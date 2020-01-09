@@ -6,8 +6,8 @@ class Analyses extends Component {
   render() {
     return (
       <Row Class>
-        coucou
-        </Row>
+      	<Col xs="12" sm="12"> <h1 className="titreresults">Analyses de la pollution sur le chantier </h1> </Col> 
+      </Row>
 
     );
   }
